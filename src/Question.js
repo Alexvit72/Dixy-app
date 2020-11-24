@@ -2,24 +2,22 @@ import React from 'react';
 import './css_Comp/Question.css';
 
 function Question(props) {
-
   let list = props.question.answers.map( (item, index) => {
 		return <label key={index}>
 			<input type='radio'
         name='answer'
-				value={'value' + index}
+        value={'value' + index}
         tabIndex='0'
-				checked={props.value === 'value' + index}
-				onChange={(event) => props.handleChange(event)}
+        checked={props.value === 'value' + index}
+        onChange={(event) => props.handleChange(event)}
 			/>
 			{item}
-		</label>
+    </label>
 	});
-
-	return <div className={props.className}>
+  return <div className={props.className}>
     <p>{props.question.text}</p>
     {list}
-	</div>;
+  </div>;
 }
 
 export default Question;
