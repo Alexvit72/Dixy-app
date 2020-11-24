@@ -1,0 +1,66 @@
+.Content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.Content-div {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(.././images/pattern.png) repeat, #ef7d00;
+}
+
+.Content-div p {
+  font: 36px / 1.194 BebasNeue;
+  margin: 0;
+}
+
+.Content-div-left, .Content-div-right {
+  align-items: flex-end;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 380px;
+  height: 380px;
+  padding-bottom: 50px;
+}
+
+.Content-div-left p {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.Content-div-right p {
+  text-align: left;
+}
+
+@media (max-width: 796px) {
+
+  .Content-div {
+    max-width: 380px;
+  }
+
+  .Content-div-left {
+    padding-right: 15px;
+  }
+
+  .Content-div-right {
+    padding-left: 25px;
+    padding-bottom: 70px;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .Content-div-left {
+    padding-right: 0;
+    padding-left: 10px;
+  }
+
+  .Content-div-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}

@@ -1,0 +1,18 @@
+.Footer {
+  text-align: center;
+  color: rgb(33, 30, 31);
+  padding-bottom: 30px;
+}
+
+.Footer-header {
+  margin: 70px 0 15px;
+  font: 24px / 1.25 BebasNeue;
+}
+
+.Footer-header span {
+  color: #e61729;
+}
+
+.Footer-main {
+  font: 14px / 1.071 DINCondensed;
+}

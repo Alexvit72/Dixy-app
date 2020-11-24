@@ -1,0 +1,26 @@
+.Alarm {
+  position: absolute;
+  bottom: 40px;
+  right: 50px;
+  background: #f41024;
+  padding: 8px 70px;
+  font: 36px / 1.222 BebasNeue;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 796px) {
+
+  .Alarm {
+    right: 60px;
+    padding: 8px 35px;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .Alarm {
+    right: 40px;
+  }
+
+}

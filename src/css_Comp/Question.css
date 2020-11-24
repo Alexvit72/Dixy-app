@@ -1,0 +1,50 @@
+.Question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.Question p {
+  font: 36px / 1.222 BebasNeue;
+  margin: 0;
+}
+
+.Question label {
+  font: 18px / 0.833 DINCondensed;
+  padding-left: 50px;
+  position: relative;
+}
+
+.Question label::before {
+  display: inline-block;
+  content: '';
+  font-size: 25px;
+  box-sizing: border-box;
+  padding: 0 0 1px 2px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.Question label:focus-within::before {
+  content: '✓';
+}
+
+.Question input {
+  position: absolute;
+  left: -9999px;
+}
+
+@media (max-width: 796px) {
+
+  .Question label {
+    margin-top: 30px;
+  }
+  
+}

@@ -1,0 +1,41 @@
+.Test {
+  position: relative;
+  box-sizing: border-box;
+  width: 760px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background:  #a8c514;
+  padding: 40px 50px;
+}
+
+.Test>p {
+  font: 18px / 1.5 DINCondensed;
+}
+
+.Test button {
+  font: 36px / 1.222 BebasNeue;
+  color: rgb(255, 255, 255);
+  background: #e8335e;
+  padding: 8px 90px;
+  margin-top: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.Test button:hover {
+  color: #ffdd2d;
+}
+
+@media (max-width: 796px) {
+
+  .Test {
+    max-width: 380px;
+    height: auto;
+    padding: 40px 40px;
+    align-items: center;
+  }
+
+}

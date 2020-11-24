@@ -1,0 +1,130 @@
+.Poster {
+  box-sizing: border-box;
+  flex-basis: 380px;
+  height: 380px;
+  text-align: center;
+  padding: 50px 40px;
+}
+
+.Poster h3 {
+  margin: 0;
+  font: lighter 48px / 1.2 BebasNeue;
+}
+
+.logo {
+  padding: 30px 0;
+  text-align: left;
+}
+
+.logo img {
+  margin-bottom: 35px;
+}
+
+.logo h3, .test h3 {
+  font: 60px MarkerFelt;
+  text-transform: uppercase;
+  text-shadow: 1px 1.732px rgb(66, 29, 75);
+}
+
+.logo h3 span {
+  font-size: 90px;
+}
+
+.logo p {
+  font: 30px BebasNeue;
+  margin: 20px 0 0;
+}
+
+.buklet {
+  padding: 40px;
+  background: url(.././images/pattern.png) repeat, #a8c514;
+}
+
+.kupon {
+  background: url(.././images/pattern.png) repeat, #e8335e;
+}
+
+.kupon img {
+  margin-bottom: 20px;
+}
+
+.kupon p, .test p {
+  margin: 0;
+  font: 24px / 1.25 BebasNeue;
+}
+
+.kupon p {
+  line-height: 0.5;
+}
+
+.product {
+  background: url(.././images/pattern.png) repeat, #491f53;
+}
+
+.product img {
+  margin-bottom: 15px;
+}
+
+.test {
+  flex: 1 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  box-sizing: border-box;
+  max-width: 760px;
+  height: auto;
+  padding: 0;
+  text-align: left;
+}
+
+.test p {
+  box-sizing: border-box;
+  width: 380px;
+  padding-right: 40px;
+}
+
+.test h3 {
+  width: 380px;
+  font-size: 70px;
+}
+
+.Poster sup {
+  font-size: 14px;
+}
+
+.Poster h3 sup {
+  position: relative;
+  top: -22px;
+}
+
+@media (max-width: 796px) {
+
+  .test, .logo {
+    text-align: center;
+  }
+
+  .test {
+    height: 380px;
+    max-width: 380px;
+    padding-bottom: 30px;
+
+  }
+
+  .test p {
+    padding: 0 20px;
+  }
+
+}
+
+@media (max-width: 380px) {
+
+  .product {
+    padding: 50px 30px;
+  }
+
+  .test p, .test h3 {
+    width: auto;
+  }
+
+
+}
