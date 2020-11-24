@@ -26,7 +26,7 @@ function FormSubscrybe(props) {
       />
       <button>ПОДПИСАТЬСЯ</button>
     </form>}
-	</div>;
+  </div>;
 }
 
 export default FormSubscrybe;
