@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Dixy-app/static/css/main.f7698987.chunk.css",
+    "main.js": "/Dixy-app/static/js/main.14fcba3a.chunk.js",
+    "main.js.map": "/Dixy-app/static/js/main.14fcba3a.chunk.js.map",
+    "runtime-main.js": "/Dixy-app/static/js/runtime-main.cb3d69a0.js",
+    "runtime-main.js.map": "/Dixy-app/static/js/runtime-main.cb3d69a0.js.map",
+    "static/js/2.7be922d4.chunk.js": "/Dixy-app/static/js/2.7be922d4.chunk.js",
+    "static/js/2.7be922d4.chunk.js.map": "/Dixy-app/static/js/2.7be922d4.chunk.js.map",
+    "static/js/3.0a0ee1fe.chunk.js": "/Dixy-app/static/js/3.0a0ee1fe.chunk.js",
+    "static/js/3.0a0ee1fe.chunk.js.map": "/Dixy-app/static/js/3.0a0ee1fe.chunk.js.map",
+    "index.html": "/Dixy-app/index.html",
+    "static/css/main.f7698987.chunk.css.map": "/Dixy-app/static/css/main.f7698987.chunk.css.map",
+    "static/js/2.7be922d4.chunk.js.LICENSE.txt": "/Dixy-app/static/js/2.7be922d4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Dixy-app/static/media/MarkerFelt-Wide.fec86538.ttf",
+    "static/media/img2.0b8b54c4.png": "/Dixy-app/static/media/img2.0b8b54c4.png",
+    "static/media/img4.63c77be9.png": "/Dixy-app/static/media/img4.63c77be9.png",
+    "static/media/img5.9cd110d3.png": "/Dixy-app/static/media/img5.9cd110d3.png",
+    "static/media/Poster.css": "/Dixy-app/static/media/pattern.e65d8769.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb3d69a0.js",
+    "static/js/2.7be922d4.chunk.js",
+    "static/css/main.f7698987.chunk.css",
+    "static/js/main.14fcba3a.chunk.js"
+  ]
+}
