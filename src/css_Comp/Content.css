@@ -8,7 +8,7 @@
 .Content-div {
   display: flex;
   flex-wrap: wrap;
-  background: url(.././images/pattern.png) repeat, #ef7d00;
+  justify-content: center;
 }
 
 .Content-div p {
@@ -23,6 +23,7 @@
   max-width: 380px;
   height: 380px;
   padding-bottom: 50px;
+  background: url(.././images/pattern.png) repeat, #ef7d00;
 }
 
 .Content-div-left p {
@@ -36,9 +37,9 @@
 
 @media (max-width: 796px) {
 
-  .Content-div {
+  /*.Content-div {
     max-width: 380px;
-  }
+  }*/
 
   .Content-div-left {
     padding-right: 15px;

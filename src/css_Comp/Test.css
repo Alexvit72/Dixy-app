@@ -1,8 +1,8 @@
 .Test {
-  position: relative;
+  /*position: relative;*/
   box-sizing: border-box;
-  width: 760px;
-  height: 380px;
+  flex-basis: 760px;
+  min-height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,7 +33,7 @@
 
   .Test {
     max-width: 380px;
-    height: auto;
+    /*height: auto;*/
     padding: 40px 40px;
     align-items: center;
   }
